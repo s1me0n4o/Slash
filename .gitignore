@@ -1,0 +1,18 @@
+# Exclude everything by default
+/*
+
+# Include specific files or directories
+!.gitignore
+!/Content/
+/Content/*
+!/Content/Blueprints/
+
+!/Source/
+/Source/*
+!/Source/Slash/
+/Source/Slash/*
+!/Source/Slash/Public/
+
+# Include C++ source files and headers
+!/**/*.cpp
+!/**/*.h
